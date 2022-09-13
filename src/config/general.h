@@ -55,7 +55,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 
 #define	DOWNLOAD_PROTO_TFTP	/* Trivial File Transfer Protocol */
 #define	DOWNLOAD_PROTO_HTTP	/* Hypertext Transfer Protocol */
-#undef	DOWNLOAD_PROTO_HTTPS	/* Secure Hypertext Transfer Protocol */
+#define	DOWNLOAD_PROTO_HTTPS	/* Secure Hypertext Transfer Protocol */
 #undef	DOWNLOAD_PROTO_FTP	/* File Transfer Protocol */
 #undef	DOWNLOAD_PROTO_SLAM	/* Scalable Local Area Multicast */
 #undef	DOWNLOAD_PROTO_NFS	/* Network File System Protocol */
@@ -155,7 +155,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 //#define CONSOLE_CMD		/* Console command */
 //#define IPSTAT_CMD		/* IP statistics commands */
 //#define PROFSTAT_CMD		/* Profiling commands */
-//#define NTP_CMD		/* NTP commands */
+#define NTP_CMD		/* NTP commands */
 //#define CERT_CMD		/* Certificate management commands */
 //#define IMAGE_MEM_CMD		/* Read memory command */
 #define IMAGE_ARCHIVE_CMD	/* Archive image management commands */
